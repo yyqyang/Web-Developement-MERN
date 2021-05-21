@@ -13,6 +13,7 @@ This chapter includes the basics of React applications can be built
 * Set up the older Browser Support functions and install npm automate packages for development usage
 
 Screenshot of the final work:
+
 ![](readme_image/chapter2.PNG)
 
 
