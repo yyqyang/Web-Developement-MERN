@@ -1,5 +1,18 @@
 # Chapter Notes
 
+## Chapter 3: highlight
+
+In this chapter a barebones version of the main page of the Issue Tracker was created.
+
+* Using React classes instead of simple elements
+* Writing individueal components and putting them together (composing) in an enclosing component
+* Passed parameters or data from an enclosing component to its children
+* Reused a component class and rendered it differently with different data, dynamically using a map() to generate components based on an array of input data
+
+There was no major issues encounter during the development and the screenshot of the final work is showing below:
+
+![](readme_image/chapter3.PNG)
+
 ## Chapter 2: highlight
 
 This chapter includes the basics of React applications can be built
