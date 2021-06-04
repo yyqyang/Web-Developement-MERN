@@ -19,32 +19,31 @@ class IssueFilter extends React.Component {
     }
 }
 
-class IssueTable extends React.Component {
+function IssueTable (props) {
 
-    render() {
-        const issueRows = this.props.issues.map(issue => 
-            <IssueRow key={issue.id} issue={issue} />
-        );
-        return (
-            <table className = "bordered-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Status</th>
-                        <th>Owner</th>
-                        <th>Created</th>
-                        <th>Effort</th>
-                        <th>Due Date</th>
-                        <th>Title</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {issueRows} 
-                </tbody>
-            </table>
-        );
-    }
+    const issueRows = props.issues.map(issue => 
+        <IssueRow key={issue.id} issue={issue} />
+    );
+    return (
+        <table className = "bordered-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Status</th>
+                    <th>Owner</th>
+                    <th>Created</th>
+                    <th>Effort</th>
+                    <th>Due Date</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                {issueRows} 
+            </tbody>
+        </table>
+    );
 }
+
 
 class IssueAdd extends React.Component {
     constructor() {
@@ -72,9 +71,9 @@ class IssueAdd extends React.Component {
     }
 }
 
-class IssueRow extends React.Component {
-  render() {
-    const issue = this.props.issue;
+function IssueRow (props) {
+  
+    const issue = props.issue;
     return (
       <tr>
           <td>{issue.id}</td>
@@ -87,7 +86,7 @@ class IssueRow extends React.Component {
       </tr>
     );
   }
-}
+
 
 class IssueList extends React.Component {
     constructor() {
