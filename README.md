@@ -1,5 +1,18 @@
 # Chapter Notes
 
+## Chapter 4: highlight
+
+This chapter focused on how to use state and make change to it on user interactions or other events.
+
+* Got a sense of basic user interaction：the click of a button to add a new issues
+* Understood the difference between props and state.
+* Understood how the UI causes the state to change and how the props in the descendant components changed
+* Understood how a child can communicate with its parent via callbacks.
+
+There was no major issues encounter during the development and the screenshot of the final work is showing below:
+
+![](readme_image/chapter4.PNG)
+
 ## Chapter 3: highlight
 
 In this chapter a barebones version of the main page of the Issue Tracker was created.
