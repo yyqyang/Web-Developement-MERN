@@ -1,5 +1,18 @@
 # Chapter Notes
 
+## Chapter 5: highlight
+
+This chapter focused on GraphQL API standard
+
+* Built C and R part of CRUD
+* Validation implementation and use GraphQL to handle errors
+* Moved the array of issues from the browser's memory to the server's memory.
+
+The issue encounter during this chapter is the complie process of UI and GraphQL. I was not able to display the issue list in the UI but was able to see it at GraphQL server. The root cause was the npm run compile function. I didnt initiate npm run watch and forgot to run compile. 
+The screenshot of the final work is showing below:
+
+![](readme_image/chapter5.PNG)
+
 ## Chapter 4: highlight
 
 This chapter focused on how to use state and make change to it on user interactions or other events.
