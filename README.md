@@ -1,5 +1,19 @@
 # Chapter Notes
 
+## Chapter 6: highlight
+
+This chapter focused on the installation and other ways of getting access to an instance of a database in MongoDB.
+
+* Use the mongo shell and the Node.js driver to access the basic operations in MongoDB.
+* The CRUD operations
+* Modified the issue tracker to use above methods to read and write to the MongoDB database.
+
+The issue encounter during this chapter is the environment path. I was not able to use mongo function on cmd until I add environment path of the db bin folder. 
+
+The screenshot of the final work is showing below:
+
+![](readme_image/chapter6.PNG)
+
 ## Chapter 5: highlight
 
 This chapter focused on GraphQL API standard
