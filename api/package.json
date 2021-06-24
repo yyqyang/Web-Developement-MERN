@@ -4,7 +4,7 @@
   "description": "web-development-project API",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e js,graphql server.js",
+    "start": "nodemon -e js,graphql -w . -w .env server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "babel src --out-dir public",
     "watch": "babel src --out-dir public --watch --verbose"
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^2.25.0",
+    "dotenv": "^6.2.0",
     "express": "^4.17.1",
     "graphql": "^0.13.2",
     "mongodb": "^3.6.9",
