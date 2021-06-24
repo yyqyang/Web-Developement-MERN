@@ -1,6 +1,8 @@
 const fs = require('fs');
 require('dotenv').config();
 const express = require('express');
+
+
 const { ApolloServer, UserInputError } = require('apollo-server-express');
 const { GraphQLScalarType } = require('graphql');
 const { Kind } = require('graphql/language');
@@ -101,8 +103,10 @@ const server = new ApolloServer({
 });
 
 const app = express();
+const enableCors = (process.env.ENABLE_CORS || 'true') == 'true';
+console.log('CORS setting:', enableCors);
 
-server.applyMiddleware({ app, path: '/graphql' });
+server.applyMiddleware({ app, path: '/graphql', cors: enableCors });
 const port = process.env.API_SERVER_PORT || 3000;
 (async function () {
   try {
