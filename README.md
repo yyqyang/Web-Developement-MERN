@@ -1,5 +1,20 @@
 # Chapter Notes
 
+## Chapter 7: highlight
+
+This chapter focused on the architectural change by separating the UI and the API servers. Other key points included:
+
+* Implications of CORS and coded an option for dealing with it using a proxy
+* Use ESlint to check the code for both front end side and backend side
+
+The issue encounter during this chapter was the npm cache. I was not able to install modules until I have cleaned the npm cache forcefully. 
+
+The screenshot of the final work is showing below:
+
+![](readme_image/chapter7.1.PNG)
+
+![](readme_image/chapter7.2.PNG)
+
 ## Chapter 6: highlight
 
 This chapter focused on the installation and other ways of getting access to an instance of a database in MongoDB.
