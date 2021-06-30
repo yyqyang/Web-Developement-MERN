@@ -5,6 +5,7 @@
       "browser": true
     },
     "rules": {
+      "import/extensions": [ "error", "always", {"ignorePackges": true} ],
       "react/prop-types": "off",
       "linebreak-style": ["error", "windows"]
     }
