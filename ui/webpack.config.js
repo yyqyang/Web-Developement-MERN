@@ -17,10 +17,10 @@ module.exports = {
     ],
   },
   optimization: {
-      splitChunks: {
-          name: 'vendor',
-          chunks: 'all',
-      }
+    splitChunks: {
+      name: 'vendor',
+      chunks: 'all',
+    },
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
 };

@@ -1,5 +1,17 @@
 # Chapter Notes
 
+## Chapter 8: highlight
+
+This chapter helped to further improve the architecture of the application by splitting code into multiple files and adding tools such as Webpack to split front end code into component-based files, inject code into the browser incrementally, and refresh the browser automatically on front-end code changes. Also, the dependency on the CDN for runtime libraries was removed helped by webpack.
+
+There was no major issues encounter during the development and the screenshot of the final work is showing below:
+
+![](readme_image/chapter8.1.PNG)
+
+![](readme_image/chapter8.2.PNG)
+
+![](readme_image/chapter8.3.PNG)
+
 ## Chapter 7: highlight
 
 This chapter focused on the architectural change by separating the UI and the API servers. Other key points included:
