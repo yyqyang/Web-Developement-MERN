@@ -1,5 +1,13 @@
 # Chapter Notes
 
+## Chapter 9: highlight
+
+This chapter learnt how to implement client-side routing includes show different pages depending on links in a menu or a navigation bar. It also shows how to connect the URL in the browser with that is shown in the page, and how parameters and query strings can be used to tweak the page contents.
+
+There was no major issues encounter during the development and the screenshot of the final work is showing below:
+
+![](readme_image/chapter9.PNG)
+
 ## Chapter 8: highlight
 
 This chapter helped to further improve the architecture of the application by splitting code into multiple files and adding tools such as Webpack to split front end code into component-based files, inject code into the browser incrementally, and refresh the browser automatically on front-end code changes. Also, the dependency on the CDN for runtime libraries was removed helped by webpack.
