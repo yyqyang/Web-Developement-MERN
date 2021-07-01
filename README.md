@@ -4,13 +4,18 @@
 
 This chapter learnt how to implement client-side routing includes show different pages depending on links in a menu or a navigation bar. It also shows how to connect the URL in the browser with that is shown in the page, and how parameters and query strings can be used to tweak the page contents.
 
+In order to affect routing, any page needs to be connected to something that the browser recognizes and indicates that “this is the page that the user is viewing”. There are two ways:
+
+* Hash-based. Uses the anchor portion of the URL (everything following the #). Every # portion can be interpreted a location within the page and there is only one page in a SPA.
+* Browser history. Uses a new HTML5 API that lets JavaScript handle the page transitions, at the same time preventing the browser from reloading the page when the URL changes. It is useful when we want to render a complete page from the server itself, especially to let search engine crawlers get the content of the pages and index them.
+
 There was no major issues encounter during the development and the screenshot of the final work is showing below:
 
 ![](readme_image/chapter9.PNG)
 
 ## Chapter 8: highlight
 
-This chapter helped to further improve the architecture of the application by splitting code into multiple files and adding tools such as Webpack to split front end code into component-based files, inject code into the browser incrementally, and refresh the browser automatically on front-end code changes. Also, the dependency on the CDN for runtime libraries was removed helped by webpack.
+This chapter helped to further improve the architecture of the application by splitting code into multiple files and adding tools such as Webpack to split front end code into component-based files, inject code into the browser incrementally, and refresh the browser automatically on front-end code changes. Also, the dependency on the CDN for runtime libraries was removed helped by webpack.The visuallization didnt change much.
 
 There was no major issues encounter during the development and the screenshot of the final work is showing below:
 
