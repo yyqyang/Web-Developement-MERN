@@ -1,5 +1,16 @@
 # Chapter Notes
 
+## Chapter 10: highlight
+
+This chapter mainly focused on the functions on the UI and the connection between DB side. We used the edit page to explore forms and look at the difference between controlled and uncontrolled form components. We also added new APIs to cater to the needs of the new form and completed the CRUD paradigm by adding a Delete operations. Lastly, we created specialized input components that could deal with different data types that one expects in most applications.
+
+There was no major issues encounter during the development, all the update related to this chapter was very straightforward. 
+
+The Screenshots of the final work is showing below:
+
+![](readme_image/chapter10.1.PNG)
+![](readme_image/chapter10.2.PNG)
+
 ## Chapter 9: highlight
 
 This chapter learnt how to implement client-side routing includes show different pages depending on links in a menu or a navigation bar. It also shows how to connect the URL in the browser with that is shown in the page, and how parameters and query strings can be used to tweak the page contents.
