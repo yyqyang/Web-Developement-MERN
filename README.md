@@ -1,5 +1,15 @@
 # Chapter Notes
 
+## Chapter 11: highlight
+
+This chapter mainly focused on adding styles and thems to an application. the UI style was improved using React-Bootstrap. The first step of this chapter is installation of React-Bootstrap, then Different bootstrap components were implemented such as Table, Inline forms, horizontal forms, panels and Toast. Also, the Create Issue functionality was implemented as a modal component that can be accessed from any page on the application.
+
+There was no major issues encounter during the development, all the update related to this chapter was very straightforward. 
+
+The Screenshots of the final work is showing below:
+
+![](readme_image/chapter11.PNG)
+
 ## Chapter 10: highlight
 
 This chapter mainly focused on the functions on the UI and the connection between DB side. We used the edit page to explore forms and look at the difference between controlled and uncontrolled form components. We also added new APIs to cater to the needs of the new form and completed the CRUD paradigm by adding a Delete operations. Lastly, we created specialized input components that could deal with different data types that one expects in most applications.
