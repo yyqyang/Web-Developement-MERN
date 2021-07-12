@@ -1,5 +1,18 @@
 # Chapter Notes
 
+## Chapter 12: highlight
+
+This chapter mainly used complex constructs and patterns to implement server rendering, which generate HTML on the server in addition to being able to render to the DOM. This enables isomorphic applications, which use same codebase on the server as well as the client to do either task: render to the DOM or create HTML. The need for this is when the application needs to be indexed by search engines. To have a properly indexed application, the server needs to respond with the same HTML that will result after the Ajax call in componentDidMount() methods and subsequent re-rendering of the page. To make this work:
+
+* Server Rendering. The first time any page is opened in the application (typing URL or refreshing the browser), the entire page will be constructed and returned from the server.
+* Browser Rendering. Once any page is loaded and the user navigates to another page, it will work as a SPA. Only the API will be made, and the DOM will be modified directly on the browser.
+
+There was no major issues encounter during the development, all the update related to this chapter was very straightforward. 
+
+The Screenshots of the final work is showing below:
+
+![](readme_image/chapter12.PNG)
+
 ## Chapter 11: highlight
 
 This chapter mainly focused on adding styles and thems to an application. the UI style was improved using React-Bootstrap. The first step of this chapter is installation of React-Bootstrap, then Different bootstrap components were implemented such as Table, Inline forms, horizontal forms, panels and Toast. Also, the Create Issue functionality was implemented as a modal component that can be accessed from any page on the application.
