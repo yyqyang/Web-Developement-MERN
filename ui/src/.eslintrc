@@ -1,8 +1,7 @@
 {
-    "extends": "airbnb",
     "env": {
-      "node": true,
-      "browser": true
+      "browser": true,
+      "node": true
     },
     "rules": {
       "import/extensions": [ "error", "always", {"ignorePackges": true} ],
