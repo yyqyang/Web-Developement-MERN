@@ -1,5 +1,21 @@
 # Chapter Notes
 
+## Chapter 13: highlight
+
+This chapter focused on a variety of techniques and concepts to implement common features that make the application more usable. The key points are:
+
+* Higher order components (HOCs) - a common React pattern for reusable code.
+* Use MongoDB's aggregate framework to summarized or even expand the data fetched from collections.
+* implemented common features such as using third-party components for undong a delete and adding paginations.
+* use a search control for finding issues based on a text index in MongoDB
+
+There major issues encountered during the development, it was the MongoDB. I was not able to display paginations and use search in the UI. It turns out that I will need installing Schema at CMD rather than in the mongo shell using this command: mongo issuetracker scripts/init.mongo.js. Since it started with mongo so I got a bit confused.
+
+The Screenshots of the final work is showing below:
+
+![](readme_image/chapter13.1.PNG)
+![](readme_image/chapter13.2.PNG)
+
 ## Chapter 12: highlight
 
 This chapter mainly used complex constructs and patterns to implement server rendering, which generate HTML on the server in addition to being able to render to the DOM. This enables isomorphic applications, which use same codebase on the server as well as the client to do either task: render to the DOM or create HTML. The need for this is when the application needs to be indexed by search engines. To have a properly indexed application, the server needs to respond with the same HTML that will result after the Ajax call in componentDidMount() methods and subsequent re-rendering of the page. To make this work:
