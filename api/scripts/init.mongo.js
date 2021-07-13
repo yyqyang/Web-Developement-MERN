@@ -7,7 +7,7 @@
  *   mongo mongodb+srv://user:pwd@xxx.mongodb.net/issuetracker scripts/init.mongo.js
  * MLab:
  *   mongo mongodb://user:pwd@xxx.mlab.com:33533/issuetracker scripts/init.mongo.js
- */
+*/
 
 /* global db print */
 /* eslint no-restricted-globals: "off" */

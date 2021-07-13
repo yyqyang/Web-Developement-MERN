@@ -24,7 +24,7 @@ async function list(_, {
   }
 
   if (search) filter.$text = { $search: search };
-  
+
   const cursor = db.collection('issues').find(filter)
     .sort({ id: 1 })
     .skip(PAGE_SIZE * (page - 1))
