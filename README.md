@@ -1,5 +1,18 @@
 # Chapter Notes
 
+## Chapter 14: highlight
+
+This chapter focused on using Google to authenticate a user. The application allows the user to view all the information without signing in, but to make any changes, they have to sign in. It ensures that the entire pages can be rendered at the UI server even though they are authenticated pages. The key learning are:
+
+* How JWT can be used to persist session information in a stateless yet secure manner.
+* How authorization works with GraphQL APIs and how it can be extended to perform different authorization checks based on the application's needs.
+* How CORS and cookie handling restrictions on the browser come into play when the browser accesses the APIs directly.
+
+The Screenshots of the final work is showing below:
+
+![](readme_image/chapter14.PNG)
+
+
 ## Chapter 13: highlight
 
 This chapter focused on a variety of techniques and concepts to implement common features that make the application more usable. The key points are:
