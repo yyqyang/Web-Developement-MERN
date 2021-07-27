@@ -2,6 +2,8 @@
 
 ## Chapter 15: highlight
 
+The heroku URL are: https://tracker-ui-yyqyang.herokuapp.com/issues
+
 In this chapter the application was deployed. Heroku was used as a Platform as a Service to deploy and mantain the application live. Repos for UI and API were created separately and those were deployed individually on heroku, so the API can be accessed on the playground using graphql. One of the most challeging parts on this chapter was to connect an online database to the application. At the end of the chapter Proxy mode was used to share the same resources between API and UI applications.
 
 There were several issues during the app delpoyment. 
