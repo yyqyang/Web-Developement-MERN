@@ -1,5 +1,20 @@
 # Chapter Notes
 
+## Chapter 15: highlight
+
+In this chapter the application was deployed. Heroku was used as a Platform as a Service to deploy and mantain the application live. Repos for UI and API were created separately and those were deployed individually on heroku, so the API can be accessed on the playground using graphql. One of the most challeging parts on this chapter was to connect an online database to the application. At the end of the chapter Proxy mode was used to share the same resources between API and UI applications.
+
+There were several issues during the app delpoyment. 
+* How to connect DB to heroku. It was solved by finding the correction version of the connecting code. 
+* How to connect DB to the mongo shell and initial the DB. It was sloved by adding password in the connection code.
+* Changing to the Proxy mode. The cookie domain was wrong and there was a typo in the URL.
+* Google authenticatation. The authenticatation button was disabled, I solved it by adding URL in the google cloud platform.
+
+The Screenshots of the final work is showing below:
+
+![](readme_image/chapter15.PNG)
+
+
 ## Chapter 14: highlight
 
 This chapter focused on using Google to authenticate a user. The application allows the user to view all the information without signing in, but to make any changes, they have to sign in. It ensures that the entire pages can be rendered at the UI server even though they are authenticated pages. The key learning are:
